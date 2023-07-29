@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>VenomRAT </AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace>Server</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="VenomRAT.exe.licenses" />
+    <EmbeddedResource Include="VenomRAT.exe.licenses" LogicalName="Venom RAT + HVNC + Stealer + Grabber.exe.licenses" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Drawing.v22.1">
+      <HintPath>..\DevExpress.Drawing.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v22.1.Core">
+      <HintPath>..\DevExpress.Printing.v22.1.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v22.1">
+      <HintPath>..\DevExpress.Utils.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="cGeoIp">
+      <HintPath>..\cGeoIp.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v22.1">
+      <HintPath>..\DevExpress.XtraEditors.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="DevExpress.XtraBars.v22.1">
+      <HintPath>..\DevExpress.XtraBars.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v22.1">
+      <HintPath>..\DevExpress.XtraGrid.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib">
+      <HintPath>..\dnlib.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagePackLib">
+      <HintPath>..\MessagePackLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v22.1">
+      <HintPath>..\DevExpress.XtraRichEdit.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net.Core">
+      <HintPath>..\protobuf-net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Vestris.ResourceLib">
+      <HintPath>..\Vestris.ResourceLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IconExtractor">
+      <HintPath>..\IconExtractor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="DevExpress.Data.v22.1">
+      <HintPath>..\DevExpress.Data.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v22.1">
+      <HintPath>..\DevExpress.Data.Desktop.v22.1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>..\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression">
+      <HintPath>..\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v22.1.Core">
+      <HintPath>..\DevExpress.RichEdit.v22.1.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="VenomRAT.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Forms\FormAudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormCertificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormDownloadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormFileManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormFileSearcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormInputString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormKeylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormNetstat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormPorts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormProcessManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRegistryEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRegValueEditBinary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRegValueEditMultiString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRegValueEditString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRegValueEditWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormRemoteDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormReverseProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormSendFileToMemory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormTimerKeylog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormTimerKeySetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FormWebcam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FrmVNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Helper\AeroListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Helper\HexEditor\HexEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Helper\RegistryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Helper\WordTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
